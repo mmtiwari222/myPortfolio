@@ -2,3 +2,8 @@
     -webkit-mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent);
     mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent);
 }
+
+.mask-gradient-reverse {
+    -webkit-mask-image: radial-gradient(50% 50% at bottom center, black, transparent);
+    mask-image: radial-gradient(50% 50% at bottom center, black, transparent);
+}
