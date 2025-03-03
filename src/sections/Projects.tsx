@@ -6,7 +6,7 @@ import CheckCircleIcon from "@/assets/icons/check-circle.svg";
 import ArrowUpIcon from "@/assets/icons/arrow-up-right.svg";
 import GrainImage from "@/assets/images/grain.jpg";
 import { SectionHeader } from "@/components/SectionHeader";
-import { Card } from "@/components/card";
+import { Card } from "@/components/Card";
 
 const portfolioProjects = [
   {

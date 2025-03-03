@@ -5,7 +5,7 @@ import memojiAvatar4 from "@/assets/images/memoji-avatar-4.png";
 import memojiAvatar5 from "@/assets/images/memoji-avatar-5.png";
 import { SectionHeader } from "@/components/SectionHeader";
 import Image from "next/image";
-import { Card } from "@/components/card";
+import { Card } from "@/components/Card";
 
 const testimonials = [
   {
@@ -49,12 +49,12 @@ export const TestimonialsSection = () => {
           title="What Clients Say about Me"
           description="Don't just take my word for it. See what my clients have to say about my work."
         />
-        <div className="mt-16 lg:mt-24 flex overflow-x-clip [mask-image: linear gradient(to_right, transparent, black_10%, black_90%, transparent )]">
+        <div className="mt-16 lg:mt-24 flex overflow-x-clip mask-gradient">
           <div className="flex gap-8 md:gap-14 lg:gap-8 flex-none">
             {testimonials.map((testimonial) => (
               <Card
                 key={testimonial.name}
-                className="max-w-xs md:mx-w-md md:p-8"
+                className="max-w-xs md:mx-w-md p-6 md:p-8"
               >
                 <div className="flex gap-4 items-center">
                   <div className="size-14 bg-gray-700 inline-flex items-center justify-center rounded-full flex-shrink-0">
