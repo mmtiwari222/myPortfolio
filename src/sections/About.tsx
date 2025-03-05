@@ -1,6 +1,5 @@
 "use client";
 import { SectionHeader } from "@/components/SectionHeader";
-import { Card } from "@/components/Card";
 import bookImage from "@/assets/images/book-cover.png";
 import Image from "next/image";
 import JavaScriptIcon from "@/assets/icons/square-js.svg";
@@ -11,6 +10,7 @@ import ChromeIcon from "@/assets/icons/chrome.svg";
 import GitHubIcon from "@/assets/icons/github.svg";
 import mapImage from "@/assets/images/map.png";
 import smileMemoji from "@/assets/images/memoji-smile.png";
+import { Card } from "@/components/Card";
 import { CardHeader } from "@/components/CardHeader";
 import { ToolBoxItems } from "@/components/ToolBoxItems";
 import { motion } from "framer-motion";
